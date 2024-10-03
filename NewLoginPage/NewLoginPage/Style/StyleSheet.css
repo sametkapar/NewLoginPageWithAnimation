@@ -1,0 +1,52 @@
+﻿* {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    background: #3f3989
+}
+
+.Main {
+    position: relative;
+    width: 350px;
+}
+
+    .Main h1 {
+        text-align: center;
+        font-size: 25pt;
+        font-weight: 900;
+    }
+
+.textBox {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #f0ffff;
+    font-size: 20pt;
+    line-height: 80px;
+    padding: 10px;
+}
+
+.Main span {
+    position: absolute;
+    font-size: 20pt;
+}
+
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
